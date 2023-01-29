@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Register Form
+        </h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <form>
+            <label for="fname">Full Name</label><br>
+            <input type="text" id="fname" placeholder="Full Name" name="fullname" minlength="3" maxlength="12" required>
+            <br><br>
+            <label for="sname">Surname</label><br>
+            <input type="text" id="sname" placeholder="Surname" name="surname" minlength="3" maxlength="12" required>
+            <br><br>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" placeholder="E-mail Adress" name="email" minlength="4" maxlength="30"
+                required>
+            <br><br>
+            <label for="pass">Password</label><br>
+            <input type="password" id="pass" placeholder="Password" name="password" minlength="4" maxlength="16"
+                required>
+            <br><br>
+            <label for="pass">Re-password</label><br>
+            <input type="password" id="pass" placeholder="Re-Password" name="password" minlength="4" maxlength="16"
+                required>
+            <br><br>
+            <label for="gender">Gender</label><br>
+            <span>Male</span>
+            <input type="radio" id="gender" name="gender">
+            <span>Female</span>
+            <input type="radio" id="gender" name="gender">
+            <br><br>
+            <label for="birthday">Your Birthday</label><br>
+            <input type="date">
+            <br><br>
+            <label for="file">File Upload</label><br>
+            <input type="file" id="file" name="file" accept="image/png, image/jpeg">
+            <br><br>
+            <label for="textarea">Text Message</label><br>
+            <textarea name="text" id="textarea" cols="30" rows="10" placeholder="Message"></textarea>
+            <br><br>
+            <input type="submit" value="submit">
+        </form>
+    </main>
+
+ <footer>
+        <div>
+            <ul>
+                <li>Azerbaijan</li>
+                <li>AZ1000</li>
+                <li>Tel: 012 999 99 99</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </footer> 
+</body>
+
+</html>
